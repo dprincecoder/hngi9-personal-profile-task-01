@@ -1,9 +1,11 @@
-import React from 'react'
-
-const index = () => {
+import React from "react";
+import './btn.css'
+const index = ({ children, text, ...otherProps }) => {
   return (
-    <div>index</div>
-  )
-}
+    <button className="btn" {...otherProps}>
+      {children}
+    </button>
+  );
+};
 
-export default index
+export default index;
