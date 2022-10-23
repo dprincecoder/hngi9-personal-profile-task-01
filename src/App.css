@@ -10,7 +10,7 @@ body {
   justify-content: center;
   align-items: center;
   width: 100%;
-  padding: 1rem;
+  padding: 1rem 2rem;
 }
 
 .container {
@@ -24,12 +24,15 @@ body {
 @media (max-width: 768px) {
   .container {
     width: 200px;
+    padding: 1rem 2rem;
   }
 }
 
 /* responsive design for ipad  */
 @media (max-width: 1024px) {
   .container {
-    width: 400px;
+    width: 800px;
+
+    padding: 1rem 2rem;
   }
 }
