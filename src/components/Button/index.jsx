@@ -1,10 +1,10 @@
 import React from "react";
 import './btn.css'
-const index = ({ children, text, ...otherProps }) => {
+const index = ({ children, link, ...otherProps }) => {
   return (
-    <button className="btn" {...otherProps}>
+    <a href={link} target="_blank" className="btn" {...otherProps}>
       {children}
-    </button>
+    </a>
   );
 };
 

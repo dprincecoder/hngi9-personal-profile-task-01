@@ -1,12 +1,16 @@
-import './App.css'
-import Button from './components/Button'
+import "./App.css";
+import Button from "./components/Button";
+import Header from "./components/Header";
 
 function App() {
   return (
-    <>
-    <Button>Twitter Link</Button>
-    </>
-  )
+    <div className="App">
+      <div className="container">
+        <Header />
+        <Button>Twitter Link</Button>
+      </div>
+    </div>
+  );
 }
 
-export default App
+export default App;

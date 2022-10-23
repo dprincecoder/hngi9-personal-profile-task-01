@@ -4,3 +4,32 @@
   box-sizing: border-box;
   background: #fff;
 }
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 1rem;
+}
+
+.container {
+  width: 1219px;
+  max-width: 100%;
+  /* height: 100vh; */
+  padding: 1rem;
+}
+
+/* responsive design for mobile */
+@media (max-width: 768px) {
+  .container {
+    width: 200px;
+  }
+}
+
+/* responsive design for ipad  */
+@media (max-width: 1024px) {
+  .container {
+    width: 400px;
+  }
+}
