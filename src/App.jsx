@@ -2,6 +2,7 @@ import "./App.css";
 import Button from "./components/Button";
 import Header from "./components/Header";
 import Socials from "./components/Socials";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
         </Button>
         <Socials />
       </div>
+      <Footer />
     </div>
   );
 }
