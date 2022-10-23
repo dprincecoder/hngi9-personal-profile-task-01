@@ -1,6 +1,7 @@
 import "./App.css";
 import Button from "./components/Button";
 import Header from "./components/Header";
+import Socials from "./components/Socials";
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
         <Button id="book__design" link="https://books.zuri.team/design-rules">
           Design Books
         </Button>
+        <Socials />
       </div>
     </div>
   );
