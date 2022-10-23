@@ -1,4 +1,4 @@
-# Task by <p style="color: #037fff">INGRESSIVE HNG 9 INTERNSHIP</p>
+# Task by INGRESSIVE HNG 9 INTERNSHIP
 
 ## Todo:
 
@@ -6,4 +6,4 @@
 
 <p>Design was provided via figma</p>
 
-### Technology must include <p color='red'>React.js</p>
+### Technology must include React.js
