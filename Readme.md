@@ -1,4 +1,4 @@
-# Task by <p color='#037fff'>INGRESSIVE HNG 9 INTERNSHIP</p>
+# Task by <p style="color: #037fff">INGRESSIVE HNG 9 INTERNSHIP</p>
 
 ## Todo:
 
