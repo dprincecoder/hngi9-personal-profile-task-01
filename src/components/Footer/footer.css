@@ -14,16 +14,36 @@ footer p {
 }
 
 /* responsive design for mobile */
-@media (max-width: 768px) {
+@media screen and (min-width: 200px) and (max-width: 768px) {
   footer {
-    display: none;
+    flex-direction: column;
+    /* align-items: center; */
+    margin-left: 1.5rem;
+  }
+  footer p {
+    margin: 1rem 0;
+  }
+
+  footer img {
+    margin: 1rem 0;
+    width: 100px;
   }
 }
 
 /* responsive design for ipad  */
-@media (max-width: 1024px) {
+@media screen and (min-width:768px) and (max-width: 1024px) {
   footer {
-    display: none;
-    /* padding: 1rem 2rem; */
+    /* flex-direction: column; */
+    /* align-items: center; */
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+  }
+  footer p {
+    margin: 1rem 0;
+  }
+
+  footer img {
+    margin: 1rem 0;
+    width: 200px;
   }
 }

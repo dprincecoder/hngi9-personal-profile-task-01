@@ -2,6 +2,7 @@ import React from 'react';
 import './socials.css';
 
 const index = () => {
+  
   return (
       <section className="socials">
           <a href="" className="slack">

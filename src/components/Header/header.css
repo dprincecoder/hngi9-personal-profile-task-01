@@ -10,7 +10,7 @@ header {
   flex-direction: column;
 }
 
-.share-icon {
+.share-icon-wrap {
   position: absolute;
   top: -10px;
   right: 100px;
@@ -26,6 +26,10 @@ header {
   margin: 0 auto;
 }
 
+.menu-icon{
+  display: none;
+}
+
 #profile__img {
   width: 100%;
   height: 100%;
@@ -38,14 +42,21 @@ header {
 
 /* responsive design for mobile */
 @media (max-width: 768px) {
-  .share-icon {
+  .share-icon-wrap {
     right: 20px;
+    
+  }
+  .menu-icon{
+    display: block;
+  }
+  .share-icon{
+    display: none;
   }
 }
 
 /* responsive design for ipad  */
 @media (max-width: 1024px) {
-  .share-icon {
+  .share-icon-wrap {
     right: 20px;
   }
 }
