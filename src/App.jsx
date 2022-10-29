@@ -9,7 +9,7 @@ function App() {
     <div className="app">
       <div className="container">
         <Header />
-        <Button id="twitter" link="http://twitter.com/dprincecoder">Twitter Link</Button>
+        <Button id="twitter" link="https://twitter.com/dprincecoder">Twitter Link</Button>
         <Button id="btn__zuri" link="https://training.zuri.team/">
           Zuri Team
         </Button>
