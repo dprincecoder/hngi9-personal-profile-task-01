@@ -1,8 +1,8 @@
 import React from "react";
-import './btn.css'
-const index = ({ children, link, ...otherProps }) => {
+import "./btn.css";
+const index = ({ children, id, link, ...otherProps }) => {
   return (
-    <a href={link} target="_blank" className="btn" {...otherProps}>
+    <a href={link} id={id} target="_blank" className="btn" {...otherProps}>
       {children}
     </a>
   );

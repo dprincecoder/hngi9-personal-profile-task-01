@@ -16,3 +16,8 @@
   text-decoration: none;
   color: #000;
 }
+
+.btn:hover {
+  background: #dfe1e6;
+  /* border-color: #dfe1e6; */
+}
